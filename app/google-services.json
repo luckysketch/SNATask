@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "389147260912",
+    "firebase_url": "https://snaproject-4d05a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "snaproject-4d05a",
+    "storage_bucket": "snaproject-4d05a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389147260912:android:24c935cfde448d0eb40f35",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389147260912-dftuvqhcfgdeomaem8mgluug4j8733m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_0cT4eYz34yG4dCjd62_qMHl5HRGJtyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389147260912-dftuvqhcfgdeomaem8mgluug4j8733m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

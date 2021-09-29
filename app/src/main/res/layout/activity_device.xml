@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_mainbg"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".Device">
+
+    <soup.neumorphism.NeumorphImageButton
+        android:id="@+id/device_back_btn"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:background="@color/general_color"
+        android:paddingLeft="0dp"
+        android:src="@drawable/ic_back_btn"
+        android:tint="@color/gray"
+        app:neumorph_inset="8dp"
+        app:neumorph_insetStart="0dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowColorDark="@color/solid_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="4dp"
+        app:neumorph_shapeAppearance="@style/CustomShapeAppearance_back_btn"
+        app:neumorph_shapeType="flat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp">
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/device_fan_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:tint="@color/gray"
+            app:neumorph_inset="8dp"
+            app:neumorph_lightSource="leftTop"
+            app:neumorph_shadowColorDark="@color/solid_dark_color"
+            app:neumorph_shadowColorLight="@color/solid_light_color"
+            app:neumorph_shadowElevation="4dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance_sqr_btn"
+            app:neumorph_shapeType="flat">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fan_ic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_afan"
+                    app:tint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="fan"
+                    android:textAllCaps="true"
+                    android:textSize="17sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/device_bulb_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:tint="@color/gray"
+            app:neumorph_inset="8dp"
+            app:neumorph_lightSource="leftTop"
+            app:neumorph_shadowColorDark="@color/solid_dark_color"
+            app:neumorph_shadowColorLight="@color/solid_light_color"
+            app:neumorph_shadowElevation="4dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance_sqr_btn"
+            app:neumorph_shapeType="flat">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bulb_ic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_abulb"
+                    app:tint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="bulb"
+                    android:textAllCaps="true"
+                    android:textSize="17sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/device_lamp_btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:tint="@color/gray"
+            app:neumorph_inset="8dp"
+            app:neumorph_lightSource="leftTop"
+            app:neumorph_shadowColorDark="@color/solid_dark_color"
+            app:neumorph_shadowColorLight="@color/solid_light_color"
+            app:neumorph_shadowElevation="4dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance_sqr_btn"
+            app:neumorph_shapeType="flat">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/lamp_ic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_alight"
+                    app:tint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="lamp"
+                    android:textAllCaps="true"
+                    android:textSize="17sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </soup.neumorphism.NeumorphCardView>
+
+    </LinearLayout>
+
+    <soup.neumorphism.NeumorphImageButton
+        android:id="@+id/device_lock_btn"
+        style="@style/Widget.Neumorph.ImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:src="@drawable/ic_lock111"
+        android:tint="@color/gray"
+        app:neumorph_inset="8dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowColorDark="@color/solid_extra_dark_color"
+        app:neumorph_shadowColorLight="@color/solid_light_color"
+        app:neumorph_shadowElevation="4dp"
+        app:neumorph_shapeAppearance="@style/CustomShapeAppearance_lock"
+        app:neumorph_shapeType="flat" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
